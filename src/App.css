@@ -1,0 +1,41 @@
+html {
+  background-color: gainsboro;
+  padding: 2vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+#point {
+  margin-bottom: 11vh;
+  opacity: 0;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 2.4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+  from {
+      opacity: 0;;
+  }
+  
+  to {
+      opacity: 1;
+  }
+}

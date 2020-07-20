@@ -1,0 +1,18 @@
+.contacts {
+    margin-left: 20vw;
+    position: relative;
+    bottom: -4vh;
+}
+
+footer {
+    padding: 2vw;
+}
+
+.heavy {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+a {
+    margin: 1vh;
+}

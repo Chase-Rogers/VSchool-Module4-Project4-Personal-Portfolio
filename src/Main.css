@@ -1,0 +1,38 @@
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: gainsboro;
+    text-align: start;
+    padding: 10px;
+}
+
+.projectImg {
+    width: 96vw;
+    padding: 1vw;
+}
+
+.wide {
+    width: 100vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .wide {
+        width: 20vw;
+        height: 17vh;
+    }
+
+    .projectImg {
+        width: 50vw;
+    }
+
+    .projects {
+        width: 50vw;
+    }
+    section {
+        margin-left: 15vw;
+      }
+}
+
+h2 {
+    padding: 0;
+}
