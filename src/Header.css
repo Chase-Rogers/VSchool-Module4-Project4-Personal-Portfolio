@@ -4,14 +4,12 @@ header {
     text-align: center;
     position: relative;
 }
-
 .center {
     position: absolute;
     margin: 0;
     top: 30%;
     width: 100vw;
 }
-
 #animate1 {
     opacity: 0;
     position: relative;
@@ -20,26 +18,20 @@ header {
     animation-timing-function: linear;
     animation-delay: .2s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-    
+    animation-fill-mode: forwards;   
 }
 #animate2 {
     opacity: 0;
-
     position: relative;
     animation-name: slideIn;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-delay: .6s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-    
+    animation-fill-mode: forwards;   
 }
 #animate3 {
     opacity: 0;
-
     position: relative;
     animation-name: slideIn;
     animation-duration: 1s;
@@ -47,21 +39,7 @@ header {
     animation-delay: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
 }
-#animate4 {
-    opacity: 0;
-
-    position: relative;
-    animation-name: slideIn;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    
-}
-
 @keyframes slideIn {
     from {
         left: -100vh;

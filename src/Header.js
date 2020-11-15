@@ -10,8 +10,7 @@ const Header = () => {
                 <br/>
                     <span id='animate2' >My name is {sourceData.profile.name}.</span>
                     <br/>
-                    <span id='animate3' >I'm a Software Developer from VSchool </span>
-                    <span id='animate4' >living in {sourceData.profile.location}.</span>
+                    <span id='animate3' >I'm a Software Developer from VSchool living in {sourceData.profile.location}.</span>
                 </h1>
             </div>
         </header>
