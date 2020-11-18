@@ -13,9 +13,9 @@ const Header = () => {
                 &rarr;
             </div>
             <div className='flex column contacts' >
-                <a href={sourceData.contact.github}>on GitHub</a>
-                <a href={sourceData.contact.linkedin} >on LinkIn</a>
-                <a href={sourceData.contact.email} >by Email</a>
+                <a href={sourceData.contact.github} target='_n'>on GitHub</a>
+                <a href={sourceData.contact.linkedin} target='_n'>on LinkIn</a>
+                <a href={sourceData.contact.email}>by Email</a>
             </div>
         </footer>
     )
